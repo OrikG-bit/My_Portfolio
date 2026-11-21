@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="520" height="762" viewBox="0 0 520 762"><title>openSMILE audio feature workflow</title>
+<defs><pattern id="dots" width="17" height="17" patternUnits="userSpaceOnUse"><circle cx="8" cy="8" r="1.05" fill="#ccd4d7"/></pattern></defs>
+<rect width="520" height="762" fill="#f6f8f8"/><rect width="520" height="762" fill="url(#dots)"/>
+<g font-family="Arial, Helvetica, sans-serif">
+<path d="M84 119 V153" fill="none" stroke="#7f989b" stroke-width="2.5"/>
+<path d="M84 231 V265" fill="none" stroke="#7f989b" stroke-width="2.5"/>
+<path d="M84 343 V377" fill="none" stroke="#7f989b" stroke-width="2.5"/>
+<path d="M84 455 V489" fill="none" stroke="#7f989b" stroke-width="2.5"/>
+<path d="M84 567 V601" fill="none" stroke="#7f989b" stroke-width="2.5"/>
+<g transform="translate(84 80)"><rect x="-39" y="-39" width="78" height="78" rx="13" fill="white" stroke="#829398" stroke-width="1.7"/><g fill="none" stroke="#248176" stroke-width="3.4" stroke-linecap="round" stroke-linejoin="round"><path d="M-10 -17 L16 0 L-10 17 Z" fill="#248176" stroke="none"/></g></g>
+<text x="157" y="78" font-size="21" fill="#34444d" font-weight="600" text-anchor="start">Manual Trigger</text>
+<g transform="translate(84 192)"><rect x="-39" y="-39" width="78" height="78" rx="13" fill="white" stroke="#829398" stroke-width="1.7"/><g fill="none" stroke="#4d6c9f" stroke-width="3.4" stroke-linecap="round" stroke-linejoin="round"><path d="M-15 -20H5L15 -10V19H-15Z M5 -20V-10H15 M-8 0H8 M-8 7H6"/></g></g>
+<text x="157" y="190" font-size="21" fill="#34444d" font-weight="600" text-anchor="start">Read openSMILE CSV File</text>
+<g transform="translate(84 304)"><rect x="-39" y="-39" width="78" height="78" rx="13" fill="white" stroke="#829398" stroke-width="1.7"/><g fill="none" stroke="#4c7894" stroke-width="3.4" stroke-linecap="round" stroke-linejoin="round"><rect x="-18" y="-16" width="36" height="32" rx="3"/><path d="M-18 -6H18 M-6 -6V16 M5 -6V16 M-18 5H18"/></g></g>
+<text x="157" y="302" font-size="21" fill="#34444d" font-weight="600" text-anchor="start">Convert CSV to JSON</text>
+<g transform="translate(84 416)"><rect x="-39" y="-39" width="78" height="78" rx="13" fill="white" stroke="#829398" stroke-width="1.7"/><g fill="none" stroke="#b86331" stroke-width="3.4" stroke-linecap="round" stroke-linejoin="round"><path d="M-7 -17 Q-14 -17 -14 -10 V-5 Q-14 0 -20 0 Q-14 0 -14 5 V10 Q-14 17 -7 17 M7 -17 Q14 -17 14 -10 V-5 Q14 0 20 0 Q14 0 14 5 V10 Q14 17 7 17"/></g></g>
+<text x="157" y="402" font-size="21" fill="#34444d" font-weight="600" text-anchor="start">Normalize openSMILE</text>
+<text x="157" y="427" font-size="21" fill="#34444d" font-weight="600" text-anchor="start">Features</text>
+<g transform="translate(84 528)"><rect x="-39" y="-39" width="78" height="78" rx="13" fill="white" stroke="#829398" stroke-width="1.7"/><g fill="none" stroke="#b86331" stroke-width="3.4" stroke-linecap="round" stroke-linejoin="round"><path d="M-7 -17 Q-14 -17 -14 -10 V-5 Q-14 0 -20 0 Q-14 0 -14 5 V10 Q-14 17 -7 17 M7 -17 Q14 -17 14 -10 V-5 Q14 0 20 0 Q14 0 14 5 V10 Q14 17 7 17"/></g></g>
+<text x="157" y="514" font-size="21" fill="#34444d" font-weight="600" text-anchor="start">Create Audio Research Risk</text>
+<text x="157" y="539" font-size="21" fill="#34444d" font-weight="600" text-anchor="start">Flag</text>
+<g transform="translate(84 640)"><rect x="-39" y="-39" width="78" height="78" rx="13" fill="white" stroke="#829398" stroke-width="1.7"/><g fill="none" stroke="#b86331" stroke-width="3.4" stroke-linecap="round" stroke-linejoin="round"><path d="M-7 -17 Q-14 -17 -14 -10 V-5 Q-14 0 -20 0 Q-14 0 -14 5 V10 Q-14 17 -7 17 M7 -17 Q14 -17 14 -10 V-5 Q14 0 20 0 Q14 0 14 5 V10 Q14 17 7 17"/></g></g>
+<text x="157" y="626" font-size="21" fill="#34444d" font-weight="600" text-anchor="start">Prepare Final Dataset</text>
+<text x="157" y="651" font-size="21" fill="#34444d" font-weight="600" text-anchor="start">Output</text>
+</g></svg>

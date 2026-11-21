@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="520" height="650" viewBox="0 0 520 650"><title>AAC donation email workflow</title>
+<defs><pattern id="dots" width="17" height="17" patternUnits="userSpaceOnUse"><circle cx="8" cy="8" r="1.05" fill="#ccd4d7"/></pattern></defs>
+<rect width="520" height="650" fill="#f6f8f8"/><rect width="520" height="650" fill="url(#dots)"/>
+<g font-family="Arial, Helvetica, sans-serif">
+<path d="M84 119 V153" fill="none" stroke="#7f989b" stroke-width="2.5"/>
+<path d="M84 231 V265" fill="none" stroke="#7f989b" stroke-width="2.5"/>
+<path d="M84 343 V377" fill="none" stroke="#7f989b" stroke-width="2.5"/>
+<text x="99" y="364" font-size="15" fill="#346553">true</text>
+<path d="M84 455 V489" fill="none" stroke="#7f989b" stroke-width="2.5"/>
+<g transform="translate(84 80)"><rect x="-39" y="-39" width="78" height="78" rx="13" fill="white" stroke="#829398" stroke-width="1.7"/><g fill="none" stroke="#a44b4e" stroke-width="3.4" stroke-linecap="round" stroke-linejoin="round"><rect x="-18" y="-13" width="36" height="26" rx="3"/><path d="M-17 -11L0 2L17 -11"/></g></g>
+<text x="157" y="66" font-size="21" fill="#34444d" font-weight="600" text-anchor="start">Gmail Trigger · New</text>
+<text x="157" y="91" font-size="21" fill="#34444d" font-weight="600" text-anchor="start">Donation Email</text>
+<g transform="translate(84 192)"><rect x="-39" y="-39" width="78" height="78" rx="13" fill="white" stroke="#829398" stroke-width="1.7"/><g fill="none" stroke="#b86331" stroke-width="3.4" stroke-linecap="round" stroke-linejoin="round"><path d="M-7 -17 Q-14 -17 -14 -10 V-5 Q-14 0 -20 0 Q-14 0 -14 5 V10 Q-14 17 -7 17 M7 -17 Q14 -17 14 -10 V-5 Q14 0 20 0 Q14 0 14 5 V10 Q14 17 7 17"/></g></g>
+<text x="157" y="178" font-size="21" fill="#34444d" font-weight="600" text-anchor="start">Extract Donation Info · No</text>
+<text x="157" y="203" font-size="21" fill="#34444d" font-weight="600" text-anchor="start">AI</text>
+<g transform="translate(84 304)"><rect x="-39" y="-39" width="78" height="78" rx="13" fill="white" stroke="#829398" stroke-width="1.7"/><g fill="none" stroke="#37775d" stroke-width="3.4" stroke-linecap="round" stroke-linejoin="round"><path d="M-13 0 H-6 Q2 0 5 -9 Q7 -15 16 -15 M-6 0 Q2 0 5 9 Q7 15 16 15"/><circle cx="-16" cy="0" r="3"/><circle cx="17" cy="-15" r="3"/><circle cx="17" cy="15" r="3"/></g></g>
+<text x="157" y="302" font-size="21" fill="#34444d" font-weight="600" text-anchor="start">Is Donation Email?</text>
+<g transform="translate(84 416)"><rect x="-39" y="-39" width="78" height="78" rx="13" fill="white" stroke="#829398" stroke-width="1.7"/><g fill="none" stroke="#388864" stroke-width="3.4" stroke-linecap="round" stroke-linejoin="round"><path d="M-13 -20H6L15 -11V20H-13Z M5 -19V-10H14 M-8 -3H9V11H-8Z M-8 4H9 M0 -3V11"/></g></g>
+<text x="157" y="402" font-size="21" fill="#34444d" font-weight="600" text-anchor="start">Log Donation to Google</text>
+<text x="157" y="427" font-size="21" fill="#34444d" font-weight="600" text-anchor="start">Sheets</text>
+<g transform="translate(84 528)"><rect x="-39" y="-39" width="78" height="78" rx="13" fill="white" stroke="#829398" stroke-width="1.7"/><g fill="none" stroke="#a44b4e" stroke-width="3.4" stroke-linecap="round" stroke-linejoin="round"><rect x="-18" y="-13" width="36" height="26" rx="3"/><path d="M-17 -11L0 2L17 -11"/></g></g>
+<text x="157" y="526" font-size="21" fill="#34444d" font-weight="600" text-anchor="start">Send Thank You Email</text>
+</g></svg>

@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN"
+  "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg xmlns:xlink="http://www.w3.org/1999/xlink" width="259.2pt" height="234pt" viewBox="0 0 259.2 234" xmlns="http://www.w3.org/2000/svg" version="1.1">
+ <metadata>
+  <rdf:RDF xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:cc="http://creativecommons.org/ns#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+   <cc:Work>
+    <dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage"/>
+    <dc:format>image/svg+xml</dc:format>
+    <dc:creator>
+     <cc:Agent>
+      <dc:title>Matplotlib v3.10.8, https://matplotlib.org/</dc:title>
+     </cc:Agent>
+    </dc:creator>
+   </cc:Work>
+  </rdf:RDF>
+ </metadata>
+ <defs>
+  <style type="text/css">*{stroke-linejoin: round; stroke-linecap: butt}</style>
+ </defs>
+ <g id="figure_1">
+  <g id="patch_1">
+   <path d="M 0 234
+L 259.2 234
+L 259.2 0
+L 0 0
+z
+" style="fill: #fbfcfc"/>
+  </g>
+  <g id="patch_2">
+   <path d="M 15.552 100.386
+L 243.648 100.386
+L 243.648 91.494
+L 15.552 91.494
+z
+" style="fill: #e2ebed"/>
+  </g>
+  <g id="patch_3">
+   <path d="M 15.552 100.386
+L 109.262248 100.386
+L 109.262248 91.494
+L 15.552 91.494
+z
+" style="fill: #177c95"/>
+  </g>
+  <g id="patch_4">
+   <path d="M 15.552 151.398
+L 243.648 151.398
+L 243.648 142.506
+L 15.552 142.506
+z
+" style="fill: #e2ebed"/>
+  </g>
+  <g id="patch_5">
+   <path d="M 15.552 151.398
+L 85.802409 151.398
+L 85.802409 142.506
+L 15.552 142.506
+z
+" style="fill: #4c6775"/>
+  </g>
+  <g id="patch_6">
+   <path d="M 15.552 202.41
+L 243.648 202.41
+L 243.648 193.518
+L 15.552 193.518
+z
+" style="fill: #e2ebed"/>
+  </g>
+  <g id="patch_7">
+   <path d="M 15.552 202.41
+L 79.687343 202.41
+L 79.687343 193.518
+L 15.552 193.518
+z
+" style="fill: #657e8b"/>
+  </g>
+  <g id="text_1">
+   <text style="font-weight: 600; font-size: 16px; font-family: 'DejaVu Sans'; text-anchor: start; fill: #213f4b" x="15.552" y="30.8775" transform="rotate(-0 15.552 30.8775)">Visits per patient</text>
+  </g>
+  <g id="text_2">
+   <text style="font-size: 11.8px; font-family: 'DejaVu Sans'; text-anchor: start; fill: #4c6775" x="15.552" y="53.426156" transform="rotate(-0 15.552 53.426156)">316,235 distinct patient IDs</text>
+  </g>
+  <g id="text_3">
+   <text style="font-weight: 600; font-size: 13px; font-family: 'DejaVu Sans'; text-anchor: start; fill: #213f4b" x="15.552" y="84.24" transform="rotate(-0 15.552 84.24)">10+ visits</text>
+  </g>
+  <g id="text_4">
+   <text style="font-weight: 600; font-size: 13px; font-family: 'DejaVu Sans'; text-anchor: end; fill: #213f4b" x="243.648" y="84.24" transform="rotate(-0 243.648 84.24)">41.1%</text>
+  </g>
+  <g id="text_5">
+   <text style="font-size: 11.4px; font-family: 'DejaVu Sans'; text-anchor: start; fill: #4c6775" x="15.552" y="115.83" transform="rotate(-0 15.552 115.83)">129,921 patients</text>
+  </g>
+  <g id="text_6">
+   <text style="font-weight: 600; font-size: 13px; font-family: 'DejaVu Sans'; text-anchor: start; fill: #213f4b" x="15.552" y="135.252" transform="rotate(-0 15.552 135.252)">3–9 visits</text>
+  </g>
+  <g id="text_7">
+   <text style="font-weight: 600; font-size: 13px; font-family: 'DejaVu Sans'; text-anchor: end; fill: #213f4b" x="243.648" y="135.252" transform="rotate(-0 243.648 135.252)">30.8%</text>
+  </g>
+  <g id="text_8">
+   <text style="font-size: 11.4px; font-family: 'DejaVu Sans'; text-anchor: start; fill: #4c6775" x="15.552" y="166.842" transform="rotate(-0 15.552 166.842)">97,396 patients</text>
+  </g>
+  <g id="text_9">
+   <text style="font-weight: 600; font-size: 13px; font-family: 'DejaVu Sans'; text-anchor: start; fill: #213f4b" x="15.552" y="186.264" transform="rotate(-0 15.552 186.264)">0–2 visits</text>
+  </g>
+  <g id="text_10">
+   <text style="font-weight: 600; font-size: 13px; font-family: 'DejaVu Sans'; text-anchor: end; fill: #213f4b" x="243.648" y="186.264" transform="rotate(-0 243.648 186.264)">28.1%</text>
+  </g>
+  <g id="text_11">
+   <text style="font-size: 11.4px; font-family: 'DejaVu Sans'; text-anchor: start; fill: #4c6775" x="15.552" y="217.854" transform="rotate(-0 15.552 217.854)">88,918 patients</text>
+  </g>
+ </g>
+</svg>

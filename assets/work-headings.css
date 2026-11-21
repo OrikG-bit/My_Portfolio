@@ -1,0 +1,177 @@
+@font-face {
+  font-family: "Young Serif";
+  src: url("/assets/fonts/young-serif-latin.woff2") format("woff2");
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+}
+
+:root {
+  --work-title: "Young Serif", Georgia, serif;
+  --work-surface: #113e4c;
+  --work-copy: #dfedf0;
+  --work-context: #b9e6e1;
+}
+
+.project-card > .project-entry,
+.case-title-block,
+.human-section .role-list,
+.position-heading {
+  background: var(--work-surface) linear-gradient(112deg, #103947, #174e59);
+  color: white;
+}
+
+.project-card .card-title,
+.project-card.spotlight .card-title,
+.case-title-block .project-heading,
+.role-row .role-name,
+.timeline-item .position-heading h2 {
+  font-family: var(--work-title);
+  font-weight: 400;
+  font-style: normal;
+  color: white;
+  letter-spacing: -.025em;
+  line-height: 1.14;
+  overflow-wrap: anywhere;
+  text-wrap: pretty;
+}
+
+.project-card .project-entry { border-radius: var(--radius); }
+.project-card .media-link { border-radius: var(--radius) var(--radius) 0 0; }
+.project-card .card-copy { padding: clamp(1.1rem, 2.3vw, 2rem); }
+.project-card .card-title { display: block; font-size: clamp(1.75rem, 2.7vw, 2.75rem); }
+.project-card .card-desc { color: var(--work-copy); }
+.project-card .project-date { color: var(--work-context); font-size: .875rem; }
+.project-card .project-status { color: #ffe09b; font-weight: 700; }
+.project-card .tag { color: var(--work-context); border-color: #6c959c; }
+.project-entry:is(:hover, :focus-visible) .card-title,
+.role-row:is(:hover, :focus-visible) .role-name {
+  text-decoration: underline;
+  text-underline-offset: .16em;
+  text-decoration-thickness: .055em;
+  text-decoration-color: #a8e5de;
+}
+.project-card.spotlight > .project-entry { gap: 0; padding-bottom: 0; }
+.project-card.spotlight .media-link { border-radius: var(--radius) 0 0 var(--radius); }
+.project-card.spotlight .card-title { font-size: clamp(1.85rem, 3vw, 3rem); }
+
+.case-title-block {
+  container-type: inline-size;
+  padding: clamp(1.25rem, 4vw, 3.75rem);
+  margin-bottom: clamp(1.25rem, 2.8vw, 2.5rem);
+  border-radius: var(--radius);
+}
+.page-intro .case-title-block .project-heading {
+  max-width: 23ch;
+  margin: 0;
+  font-size: clamp(2rem, 8.1vw, 7rem);
+  font-size: clamp(2rem, 13cqi, 7rem);
+  line-height: 1.07;
+}
+.case-title-block .title-context {
+  color: var(--work-context);
+  font-family: var(--sans);
+  font-size: clamp(1rem, .46em, 2.5rem);
+  letter-spacing: -.01em;
+  margin-bottom: .4em;
+}
+.case-title-block .title-name { color: white; }
+.page-intro .case-title-block .intro-copy {
+  color: var(--work-copy);
+  margin: clamp(.85rem, 2vw, 1.6rem) 0 0;
+}
+
+.human-grid { align-items: start; }
+.human-section .role-list {
+  margin: 0;
+  padding: 0 clamp(1.1rem, 2.4vw, 2.2rem);
+  border: 0;
+  border-radius: var(--radius);
+  list-style: none;
+}
+.role-list li + li { border-top: 1px solid #537780; }
+.role-list .role-row {
+  display: grid;
+  grid-template-columns: minmax(0,1fr) auto;
+  grid-template-areas: "name date" "org date";
+  gap: .35rem 1rem;
+  align-items: center;
+  border: 0;
+  padding-block: clamp(1rem, 1.8vw, 1.6rem);
+}
+.role-name { grid-area: name; font-size: clamp(1.6rem, 2.6vw, 2.45rem); }
+.role-organization { grid-area: org; color: var(--work-context); font-size: .9375rem; }
+.role-row small { grid-area: date; color: var(--work-copy); font-size: .875rem; }
+.role-row:focus-visible { outline: 2px solid #bdf5ee; outline-offset: 2px; }
+.timeline-item {
+  grid-template-columns: minmax(15rem, .88fr) minmax(0,1.9fr);
+  align-items: start;
+  gap: clamp(1.5rem, 4vw, 4.5rem);
+}
+.position-heading {
+  min-width: 0;
+  padding: clamp(1.15rem, 2vw, 1.9rem);
+  border-radius: var(--radius);
+}
+.timeline-item .position-heading h2 {
+  font-size: clamp(1.65rem, 2.7vw, 2.8rem);
+  margin: 0 0 .55rem;
+}
+.position-heading .timeline-org { color: var(--work-context); font-size: .95rem; }
+.timeline-item .position-heading .timeline-date { color: var(--work-copy); font-size: .875rem; margin-top: .3rem; }
+.position-detail > p:first-child { margin-top: 0; }
+.timeline-item .role-history { color: var(--accent); font-size: .9375rem; font-weight: 650; }
+
+@media (max-width: 760px) {
+  .project-grid { gap: .875rem; }
+  .project-card { border: 0; }
+  .project-card > .project-entry, .project-card.spotlight > .project-entry,
+  .project-card[data-featured] > .project-entry {
+    padding: clamp(.95rem, 3.8vw, 1.4rem);
+    gap: 0 .75rem;
+    border-radius: .9rem;
+  }
+  .project-card .card-copy { padding: 0; }
+  .project-card .card-title, .project-card.spotlight .card-title {
+    font-size: clamp(1.48rem, 5.5vw, 2rem);
+    line-height: 1.16;
+  }
+  .project-card[data-featured] .card-title { font-size: clamp(1.75rem, 6.9vw, 2.35rem); }
+  .project-card .media-link, .project-card.spotlight .media-link { border-radius: .55rem; }
+  .project-card .project-date { font-size: .875rem; }
+  .project-card .card-desc { font-size: 1rem; line-height: 1.5; }
+  .timeline-item { grid-template-columns: minmax(0,1fr); gap: 1rem; }
+  .human-grid { gap: 1.35rem; }
+}
+
+@media (min-width: 20em) and (max-width: 24em) {
+  .project-card:not([data-featured]) > .project-entry {
+    grid-template-areas: "title title" "date cover" "body cover" "tags tags";
+  }
+  .project-card:not([data-featured]) .media-link { margin-top: .65rem; }
+  .project-card:not([data-featured]) .card-desc { margin-top: .55rem; }
+}
+@media (max-width: 32em) {
+  .role-list .role-row {
+    grid-template-columns: minmax(0,1fr);
+    grid-template-areas: "name" "org" "date";
+    gap: .18rem;
+  }
+  .role-row small { text-align: start; }
+}
+@media (max-width: 25em) {
+  .project-card[data-featured] > .project-entry {
+    grid-template-columns: minmax(0,1fr);
+    grid-template-areas: "title" "date" "cover" "body" "tags";
+  }
+}
+@media (forced-colors: active), print {
+  .project-card > .project-entry, .case-title-block, .human-section .role-list, .position-heading {
+    background: Canvas;
+    color: CanvasText;
+    border: 1px solid currentColor;
+  }
+  :is(.project-entry, .case-title-block, .role-list, .position-heading) :is(h1, h2, h3, p, span, small, .timeline-date, .timeline-org) {
+    color: CanvasText !important;
+  }
+}

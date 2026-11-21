@@ -1,0 +1,89 @@
+/* The original case-study layout also serves print and larger screens. */
+.case-jumps, .case-index-link, .diagram-narrow-label { display: none; }
+
+@media screen and (max-width: 760px) {
+  .breadcrumbs .case-index-link { display: inline-flex; }
+  .breadcrumbs .case-home-link,
+  .breadcrumbs span:last-child,
+  .breadcrumbs span:nth-last-child(2) { display: none; }
+  .case-index-link {
+    color: var(--accent);
+    font-weight: 600;
+    text-decoration: underline;
+    text-underline-offset: .2em;
+  }
+  .case-jumps {
+    display: flow-root;
+    margin-block: 1.25rem .5rem;
+    border-block: 1px solid var(--line);
+    color: var(--ink);
+  }
+  .case-jumps summary {
+    display: flex;
+    justify-content: flex-end;
+    gap: .4rem;
+    align-items: center;
+    min-height: 48px;
+    padding-block: .5rem;
+    list-style: none;
+    font-weight: 650;
+    cursor: pointer;
+  }
+  .case-jumps summary::-webkit-details-marker { display: none; }
+  .case-jumps summary::after {
+    content: "";
+    width: .48rem;
+    height: .48rem;
+    margin-inline: .3rem;
+    flex: none;
+    border-right: 2px solid currentColor;
+    border-bottom: 2px solid currentColor;
+    transform: rotate(45deg) translate(-1px, -1px);
+  }
+  .case-jumps details[open] summary::after { transform: rotate(225deg); }
+  .case-jumps ul {
+    clear: both;
+    margin: 0 0 .7rem;
+    padding: 0 0 0 .85rem;
+    list-style: none;
+    border-inline-start: 2px solid #90bdc5;
+  }
+  .case-jumps a, .case-index-bottom {
+    display: flex;
+    align-items: center;
+    min-height: 44px;
+    padding-block: .45rem;
+    color: var(--accent);
+    font-size: 1rem;
+    line-height: 1.4;
+    text-decoration: underline;
+    text-underline-offset: .2em;
+  }
+  .case-jumps .case-primary-jump {
+    float: left;
+    float: inline-start;
+    max-width: 53%;
+    min-height: 48px;
+    margin-inline-end: .55rem;
+    font-weight: 650;
+  }
+  .case-jumps :is(a,summary):focus-visible { outline: 2px solid currentColor; outline-offset: 2px; }
+  .case-jumps + .case-meta { margin-block-start: .85rem; }
+  .next-project {
+    flex-flow: row wrap;
+    justify-content: flex-start;
+    align-items: center;
+    gap: .5rem 1.25rem;
+  }
+  .next-project > :first-child { flex-basis: 100%; min-width: 0; }
+  .case-index-bottom { align-self: center; }
+  .case-visual > button > picture { display: block; }
+}
+@media screen and (max-width: 640px) {
+  .diagram-wide-label { display: none; }
+  .diagram-narrow-label { display: inline; }
+}
+@media screen and (max-width: 19.99em) {
+  .case-jumps .case-primary-jump { float: none; max-width: none; margin-inline-end: 0; }
+  .case-jumps summary { justify-content: space-between; }
+}
