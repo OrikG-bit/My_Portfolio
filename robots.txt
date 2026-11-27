@@ -1,2 +1,10 @@
+User-agent: LinkedInBot
+Allow: /
+
+User-agent: Twitterbot
+Allow: /$
+Allow: /assets/orkhan-guliyev-social.jpg$
+Disallow: /
+
 User-agent: *
 Disallow: /
